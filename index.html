@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<style type="text/tailwindcss">
+@theme{
+            --color-bg-primary: #f8f4f0;
+            --color-primary: #34a0a4;
+            --color-primary-2: #FFFFFF;
+            --text-button: 16px;
+            --text-link: 19px;
+            --text-subheading: 26px;
+            --text-hero: 60px;
+            --text-title: 90px;
+            --spacing-page: 50px;
+            --spacing-page2: 80px;
+            --spacing-title: 200px;
+            --spacing-subheading: 208px;
+            --spacing-buttony:15px;
+            --spacing-buttonx:35px;
+            --spacing-title-text:81px;
+            --tracking-button:2px;
+            --spacing-bottom:20px;
+            --spacing-bottom-2:25px;
+            --spacing-img-bottom:30px;
+            --height-imgh:162px;
+            --width-imgw:162px;
+            --spacing-text:73px;
+            --spacing-section: 40px;
+            --spacing-x:150px;
+            --spacing-y:50px;
+}
+</style>
+<style>
+           
+            *{
+                font-family: "League Spartan", sans-serif;
+            }
+        </style>
+  <title>Document</title>
+</head>
+<body class="bg-bg-primary p-page">
+  <div class="w-full  min-h-[750px]  bg-[url(hero-bg.jpg)] bg-center bg-top text-white rounded-2xl mb-page">
+    <div class="bg-black/50 min-h-[750px]  rounded-2xl  "> 
+
+      <nav class="flex px-page pt-page sm:justify-between justify-center">
+        <img src="site-logo.svg" alt="">
+        
+<div class="hidden sm:flex sm:gap-10">
+  <a href="index.html" class="hover:text-primary text-link">Home</a>
+  <a href="about.html" class="hover:text-primary text-link">About</a>
+  <a href="" class="hover:text-primary text-link">Services</a>
+  <a href="" class="hover:text-primary text-link">Properties</a>
+  <a href="" class="hover:text-primary text-link">Contact</a>
+  </div>
+  <div class=" hidden sm:flex gap-7 text-white text-2xl">
+  <i class="fa-brands fa-x-twitter hover:text-primary"></i>
+  <i class="fa-brands fa-pinterest-p hover:text-primary"></i>
+  <i class="fa-brands fa-youtube hover:text-primary"></i>
+</div>
+        </nav>
+        <div class= "flex flex-col items-center">
+          <h2 class="pt-page text-subheading text-center">Discover Your Dream Home with Us</h2>
+          <h2 class="px-title text-center text-title">Find the perfect property for your Lifestyyle</h2>
+        <button class="mb-page tracking-button py-buttony px-buttonx bg-primary rounded-4xl text-button uppercase">start searching</button>
+        </div>
+        </div>
+        
+        </div>
+        
+<div class="bg-primary-2 rounded-2xl p-page">
+    <h2 class="flex justify-center text-hero">What We Do</h2>
+    <p class="max-w-[800px] mx-auto text-[19px] text-gray-600 leading-relaxed">
+        Simplifying the journey of buying, selling, and renting properties. Our expert team provides comprehensive real estate solutions tailored to your needs.
+        </p>
+        <div class="flex justify-center w-12 h-[0.5px] bg-primary mb-8 mt-4"></div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mt-24">
+    <div>
+    <h6 class="text-button text-primary pb-bottom">
+        01
+    </h6>
+    
+    <h3 class="text-subheading pb-bottom">
+        Property Sales
+    </h3>
+
+    <p class="text-gray-600 text-link leading-relaxed">
+        Find your dream home with Real Estate - our expert team will guide
+        you through the process and ensure a smooth transaction.
+        </p>
+        </div>
+    <div>
+    <h6 class="text-button text-primary pb-bottom">
+        02
+        </h6>
+
+        <h3 class="text-subheading pb-bottom">
+        Property Rentals
+    </h3>
+
+    <p class="text-gray-600 text-link leading-relaxed ">
+        Find your dream rental property with Real Estate, offering a variety of options to suit your needs and preferences.
+        </p>
+        </div>
+        <div>
+            <h6 class="text-button text-primary pb-bottom">
+                03
+                </h6>
+
+                <h3 class="text-subheading pb-bottom">
+                    Property Management
+                    </h3>
+                    
+    <p class="text-gray-600 text-link leading-relaxed">
+        Trust Real Estate to handle the day-to-day management of your property, maximizing its value and minimizing your stress.
+    </p>
+    </div>
+    <div>
+        <h6 class="text-button text-primary pb-bottom">
+        04
+        </h6>
+        
+    <h3 class="text-subheading pb-bottom">
+        Lucrative Investments
+    </h3>
+    
+    <p class="text-gray-600 text-link leading-relaxed">
+        Real Estate presents lucrative investment opportunities in the real estate market, providing high returns on investments.
+        </p>
+        </div>
+        </div>
+        </div>
+        
+        
+        <div class="py-page ">
+            <h1 class="text-hero text-center pb-bottom">Featured Properties</h1>
+            <p class="flex justify-center text-gray-600 px-title text-link pb-buttonx  place-content">Discover our hand-picked selection of top-notch properties with outstanding features, guaranteed to meet your real estate needs and exceed your expectations.</p>
+            <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-12">
+                <div>
+                    <img class="w-full h-[240px] object-cover rounded-3xl mb-6" src="feature-01.jpg" alt="">
+                    <p class="text-button pb-bottom">APARTMENT - QUEENS</p>
+                    <h3 class="text-subheading mb-bottom">Modern Stylish Apartment</h3>
+                    <p class="text-link text-gray-600 leading-relaxed">Discover the epitome of contemporary living in our sleek and chic modern stylish apartments.</p>
+                    <h6 class="text-link text-primary font-medium">$150,000</h6>
+                    </div>
+                    <div>
+                        <img class="w-full h-[240px] object-cover rounded-3xl mb-6" src="feature-01.jpg" alt="">
+                        <p class="text-button pb-bottom">APARTMENT - QUEENS</p>
+            <h3 class="text-subheading mb-bottom">Modern Stylish Apartment</h3>
+            <p class="text-link text-gray-600 leading-relaxed">Discover the epitome of contemporary living in our sleek and chic modern stylish apartments.</p>
+            <h6 class="text-link text-primary font-medium">$150,000</h6>
+            </div>
+            <div>
+            <img class="w-full h-[240px] object-cover rounded-3xl mb-6" src="feature-01.jpg" alt="">
+            <p class="text-button pb-bottom">APARTMENT - QUEENS</p>
+            <h3 class="text-subheading mb-bottom">Modern Stylish Apartment</h3>
+            <p class="text-link text-gray-600 leading-relaxed">Discover the epitome of contemporary living in our sleek and chic modern stylish apartments.</p>
+            <h6 class="text-link text-primary font-medium">$150,000</h6>
+            </div>
+            </div>
+            </div>
+            
+            <section class="bg-primary-2 rounded-3xl mb-section">
+                <div class="grid lg:grid-cols-2 gap-12">
+                   
+                        
+                    <div class= "flex flex-col justify-center px-page py-page">
+                            <i class="fa-solid fa-quote-right text-primary text-4xl p-bottom-2"></i>
+                            <h2 class="text-hero leading-none">
+                                Read from clients who have found the perfect place where they can create... </h2>
+                            <div class="w-12 h-[0.5px] bg-primary mb-8 mt-4"></div>
+                            <p class="text-link text-gray-600 leading-relaxed mb-bottom">
+                                Discover testimonials from satisfied clients who have found their dream properties with Real Estate, the trusted experts in helping you find the perfect place to call home.</p>
+                                
+                                <button class="bg-primary mb-page tracking-button bg-primary rounded-4xl text-button text-primary-2 uppercase px-buttonx py-buttony w-fit hover:opacity-90 transition">
+                                    More Testimonials
+                                    </button>
+                        
+                                </div>
+
+                                <div class=" py-buttonx px-buttonx">
+                                    
+                                    <div class="border border-gray-200 rounded-3xl p-8">
+                                        
+                                        
+                                        
+                                        <div class="text-yellow-400 text-xl mb-5">
+                                            ★★★★★
+                                            </div>
+
+                                            <p class="text-link mb-bottom">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id convallis neque. Nam scelerisque placerat orci. Maecenas at pulvinar dui. In fermentum, lectus sed tincidunt ornare, arcu ex convallis sapien, quis vestibulum libero tellus quis nisl.”</p>
+
+                                            <h4 class="text-primary text-[15px] tracking-[0.2em]">JAMES OLIVER</h4>
+
+
+                                        </div>
+                                    <div class="border border-gray-200 rounded-3xl p-8 mt-8">
+                                        
+                                        
+                                        
+                                        <div class="text-yellow-400 text-xl mb-5">
+                                            ★★★★★
+                                            </div>
+
+                                            <p class="text-link mb-bottom">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id convallis neque. Nam scelerisque placerat orci. Maecenas at pulvinar dui. In fermentum, lectus sed tincidunt ornare, arcu ex convallis sapien, quis vestibulum libero tellus quis nisl.”</p>
+
+                                            <h4 class="text-primary text-[15px] tracking-[0.2em]">JAMES OLIVER</h4>
+
+
+                                        </div>
+                                    </div>
+
+                                
+
+                                </div>
+                            
+                </section>
+            <section class="bg-primary-2 rounded-3xl mb-section">
+                <div class="grid lg:grid-cols-2 gap-12 py-page2 px-page">
+                                <img class="h-[600px]" src="connecting-with-customers.jpg" alt="">
+
+                                <div class="mb-15 mt-15">
+                                    
+                                    <h1 class="text-hero tracking-tight leading-[60px]">
+                                        Connecting people with perfect homes is our passion.
+                                        </h1>
+                                        <div class="w-12 h-[0.5px] bg-primary mt-img-bottom mb-section"></div>
+
+                                        <p class="text-link text-gray-600 pb-img-bottom">With a genuine passion for helping people find their dream homes, we are dedicated to connecting buyers and sellers in the real estate market. Trust us to make your home buying or selling experience seamless and satisfying.</p>
+
+                                        <button class="bg-primary mb-page tracking-button bg-primary rounded-4xl text-button text-primary-2 uppercase px-buttonx py-buttony w-fit hover:opacity-90 transition ">
+                                    READ MORE
+                                    </button>
+                                    </div>
+
+                                </div>
+                            
+                </section>
+
+
+              <section class="bg-[#f8f6f3] py-2 pb-12">
+    <div
+        class="relative w-full mx-auto h-[700px] rounded-[30px] overflow-hidden bg-cover bg-center"
+        style="background-image:url('cta.jpg');">
+
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black/35"></div>
+
+        <!-- White Card -->
+        <div
+            class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2
+            bg-white rounded-[28px]
+            w-[70%] h-[320px]
+            flex flex-col justify-center items-center
+            shadow-xl">
+
+            <!-- Small Heading -->
+            <p class="uppercase tracking-[4px] text-[20px] font-medium text-black">
+                Contact Us
+            </p>
+
+            <!-- Main Heading -->
+            <h2 class="mt-8 text-[62px] font-light text-black">
+                Schedule an Appointment
+            </h2>
+
+            <!-- Underline -->
+            <div class="mt-10 w-20 h-[2px] bg-cyan-400"></div>
+
+        </div>
+
+    </div>
+</section>
+
+
+
+<footer class="bg-[#f8f6f3] pt-28">
+
+    <!-- ===========================
+         MAIN FOOTER
+    ============================ -->
+    <div class="max-w-7xl mx-auto px-8">
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16">
+
+            <!-- ===========================
+                 LOGO
+            ============================ -->
+            <div>
+
+                <div class="flex items-center gap-3">
+                    <img src="site-logo.svg" alt="Logo" class="h-2">
+
+                    <h2 class="text-3xl font-semibold">
+                        Real<span class="font-bold">Estate</span>
+                    </h2>
+                </div>
+
+            </div>
+
+
+
+            <!-- ===========================
+                 ABOUT US
+            ============================ -->
+            <div>
+
+                <h3 class="text-4xl font-light mb-8">
+                    About Us
+                </h3>
+
+                <p class="text-gray-600 leading-10 max-w-[320px]">
+                    At Real Estate, we pride ourselves on being a trusted and reputable name in the real estate industry with years of experience.
+                </p>
+
+            </div>
+
+
+
+            <!-- ===========================
+                 CONTACT INFO
+            ============================ -->
+            <div>
+
+                <h3 class="text-4xl font-light mb-8">
+                    Contact Info
+                </h3>
+
+                <div class="space-y-4">
+
+                    <p class="text-primary text-xl">
+                        13, Fifth Avenue, New York, NY 101660
+                    </p>
+
+                    <p class="text-primary text-xl">
+                        contact@info.com
+                    </p>
+
+                    <p class="text-primary text-xl">
+                        555-345-4599
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ===========================
+                 PROPERTY SEARCH
+            ============================ -->
+            <div>
+
+                <h3 class="text-4xl font-light mb-8">
+                    Property Search
+                </h3>
+
+                <p class="text-gray-600 leading-9 mb-8">
+                    Lorem ipsum dolor sit amet, consectetur elit. Donec faucibus, quam sed.
+                </p>
+
+
+                <!-- Search Box -->
+
+                <input
+                    type="text"
+                    placeholder="Search Properties"
+                    class="w-full border border-gray-300 px-4 py-3 outline-none">
+
+
+                <!-- Search Button -->
+
+                <button
+                    class="mt-4 bg-cyan-500 w-28 h-20 rounded-full text-white hover:bg-cyan-600 transition">
+
+                    <i class="fa-solid fa-magnifying-glass text-2xl"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ===========================
+             DIVIDER
+        ============================ -->
+
+        <div class="border-t border-gray-300 my-20"></div>
+
+
+
+        <!-- ===========================
+             BOTTOM FOOTER
+        ============================ -->
+
+        <div class="flex flex-col md:flex-row justify-between items-center pb-10 gap-8">
+
+            <!-- Copyright -->
+
+            <p class="text-gray-700 text-lg">
+                Copyright © 2026 Real Estate Company
+            </p>
+
+
+            <!-- Social Icons -->
+
+            <div class="flex items-center gap-8 text-cyan-500 text-2xl">
+
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-pinterest-p"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+    
+  </body>
+</html>
